@@ -2,6 +2,11 @@
  Computational Geometry Project
 📐 Think Python Exercise: Generalizing Geometric Drawing
 
+[Book : THIRD EDITION
+Think Python
+How to Think Like a Computer Scientist
+Allen B. Downey]
+
 This solution addresses a classic exercise in computational thinking: designing a highly generalized set of functions to draw complex shapes by combining simple components.
 
 The core challenge is to build a draw_pie() function that can draw a circle of any size, approximated by any number of n sides, using only a single segment drawing function triangle() .
