@@ -1,17 +1,32 @@
-# Law-of-Sines-Pie-Generator
- Computational Geometry Project
-📐 Think Python Exercise: Generalizing Geometric Drawing
+# Law of Sines Visualizer
 
-[Book : THIRD EDITION
-Think Python
-How to Think Like a Computer Scientist
-Allen B. Downey]
+## Overview
+This project is a **computational geometry exercise** inspired by an advanced drawing problem from  
+*Think Python (3rd Edition) — Allen B. Downey*.
 
-This solution addresses a classic exercise in computational thinking: designing a highly generalized set of functions to draw complex shapes by combining simple components.
+The goal is to construct a **generalized geometric drawing method** that approximates a circle using
+polygonal segments, derived purely from trigonometric relationships rather than hard-coded geometry.
 
-The core challenge is to build a draw_pie() function that can draw a circle of any size, approximated by any number of n sides, using only a single segment drawing function triangle() .
+---
 
-i didnt use my paper instead i dont know why i used my wooden desk to solve the geomtery problem 
+## Problem Statement
+The task is to design a function `draw_pie()` that can:
+
+- draw a circle of **any radius**
+- approximate the circle using **any number of sides (n)**
+- rely only on a **single primitive drawing function** based on triangles
+
+This forces the solution to be **fully parametric** and **mathematically grounded**.
+
+---
+
+## Geometric Insight
+The circle is approximated by dividing it into **n identical isosceles triangles**, each subtending
+an angle θ between adjacent sides.
+
+Using the **Law of Sines**, the base length of each triangle segment is derived as:
+
+
 
 ![IMG_20251208_071443](https://github.com/user-attachments/assets/6156874e-c3e9-44da-b189-9de9ab1f49eb)
 
