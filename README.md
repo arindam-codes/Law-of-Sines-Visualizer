@@ -48,7 +48,7 @@ Below are sketches and generated outputs that validate the trigonometric model.
 
 ### Early geometric attempts (incorrect)
 ![Initial incorrect sketch](./images/Screenshot from 2025-12-07 07-12-20.png)
-![Initial incorrect sketch](./images/mistake-sketch-1.jpg)
+![Initial incorrect sketch](./images/Screenshot from 2025-12-07 07-13-41.png)
 
 ### Refined reasoning after correction
 ![Output example 1](./images/output1.png)
