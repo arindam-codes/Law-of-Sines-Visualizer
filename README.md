@@ -25,19 +25,33 @@ The circle is approximated by dividing it into **n identical isosceles triangles
 an angle θ between adjacent sides.
 
 Using the **Law of Sines**, the base length of each triangle segment is derived as:
+base = (sin(fi) / sin(θ)) * radius
+
+## Iterations & Corrections
+
+During development, several incorrect geometric assumptions were tested
+and visually analyzed before arriving at the final formulation.
+
+These intermediate sketches helped identify:
+- incorrect angle relationships
+- scaling inconsistencies
+- limitations of naive constructions
 
 
+## Visual Reasoning & Results
 
-![IMG_20251208_071443](https://github.com/user-attachments/assets/6156874e-c3e9-44da-b189-9de9ab1f49eb)
+The geometry was reasoned visually before implementation.
+Below are sketches and generated outputs that validate the trigonometric model.
 
-i generelized the isosceles triangle the base as sin(fi) / ( radius of the circle * sin(theta) )
-  where theta is angle btw adjacent sides 
-  and fi is the rest two angle os the isosceles triangle 
+### Hand-drawn geometric reasoning
+![Geometric sketch](./images/IMG_20251208_071443.jpg)
 
-so finally the outputs i got is 
+### Early geometric attempts (incorrect)
+![Initial incorrect sketch](./images/Screenshot from 2025-12-07 07-12-20.png)
+![Initial incorrect sketch](./images/mistake-sketch-1.jpg)
 
-![Screenshot_from_2025-12-08_07-08-03](https://github.com/user-attachments/assets/554bfad5-50d1-4edc-b8cc-094a90faefd9)
+### Refined reasoning after correction
+![Output example 1](./images/output1.png)
+![Output example 2](./images/output2.png)
 
-![Screenshot_from_2025-12-08_07-08-36](https://github.com/user-attachments/assets/2b9311aa-55d8-4fdf-a847-3ea3fbe8dcfd)
 
-![IMG_20251208_071426](https://github.com/user-attachments/assets/46a5bf6c-fce9-4a82-b035-dd5d16d5a548)
