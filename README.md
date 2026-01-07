@@ -44,14 +44,15 @@ The geometry was reasoned visually before implementation.
 Below are sketches and generated outputs that validate the trigonometric model.
 
 ### Hand-drawn geometric reasoning
-![Geometric sketch](./images/IMG_20251208_071443.jpg)
+![Geometric sketch](./images/handdrawn.jpg)
 
 ### Early geometric attempts (incorrect)
-![Initial incorrect sketch](./images/Screenshot from 2025-12-07 07-12-20.png)
-![Initial incorrect sketch](./images/Screenshot from 2025-12-07 07-13-41.png)
+![Initial incorrect sketch](./images/incorrect.png)
+![Initial incorrect sketch](./images/incorrect2.png)
 
 ### Refined reasoning after correction
-![Output example 1](./images/output1.png)
-![Output example 2](./images/output2.png)
-
+![Output example 1](./images/corrected1.png)
+![Output example 2](./images/corrected2.png)
+![Output example 2](./images/corrected3.png)
+![Output example 2](./images/pic.jpg)
 
