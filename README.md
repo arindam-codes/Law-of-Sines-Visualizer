@@ -44,7 +44,7 @@ The geometry was reasoned visually before implementation.
 Below are sketches and generated outputs that validate the trigonometric model.
 
 ### Hand-drawn geometric reasoning
-![Geometric Reasoning](https://github.com/user-attachments/assets/6bc20f2f-cca3-49d9-8c8f-f709fd9d51e8)
+![Geometric Reasoning](./images/handdrawn.jpg)
 
 ### Early geometric attempts (incorrect)
 ![Initial incorrect sketch](./images/incorrect.png)
