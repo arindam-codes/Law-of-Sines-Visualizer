@@ -26,6 +26,14 @@ an angle θ between adjacent sides.
 
 Using the **Law of Sines**, the base length of each triangle segment is derived as:
 base = (sin(fi) / sin(θ)) * radius
+Where:
+- `θ` is the angle between adjacent sides of the polygon
+- `φ` is the remaining equal angle of the isosceles triangle
+- `radius` is the radius of the target circle
+
+This formulation allows the circle approximation to scale smoothly with both radius and resolution.
+
+---
 
 ## Iterations & Corrections
 
